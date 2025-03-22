@@ -3,4 +3,5 @@ kind: Kustomization
 resources:
   - ingress-nginx
   - sealed-secrets
+  - secrets-generator
   - cloudflared.yaml
