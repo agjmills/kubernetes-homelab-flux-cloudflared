@@ -19,6 +19,3 @@ spec:
     cloudflare:
       tunnelName: 'k3s-homelab'
       secretName: cloudflared-credentials
-      ingress:
-        - hostname: hello.asdfx.us
-          service: hello_world
